@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHMOD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Nombre del comando -->
+<h1>CHMOD</h1>
+
+<!-- Breve descripcion de que hace el comando -->
+<p>El comando <strong>CHMOD</strong> se utiliza para dar permisos a archivos.</p>
+
+<hr>
+
+<!-- Parámetros más comunes -->
+<h2>Parámetros:</h2>
+<div>
+
+    <div class="parametros">
+        <!-- Usando grid la primera columna son los parametros -->
+        <p><code>-x</code></p>
+    
+        <!-- Usando grid la segunda columna es la descripcion de que hace el parametro -->
+        <p>Quitar permisos de ejecucion</p>
+    </div>
+
+    <div class="parametros">
+        <p><code>-r</code></p>
+
+        <p>Quitar permisos de lectura</p>
+    </div>
+
+    <div class="parametros">
+        <p><code>-w</code></p>
+
+        <p>Quitar permisos de escritura</p>
+    </div>
+
+</div>
+
+<hr>
+
+<h2>Otros parámetros: </h2>
+
+<!-- Lista de parámetros menos comunes -->
+<div>
+
+    
+    
+</div>
+
+
+    <hr>
+
+    <h2>Ejemplos:</h2>
+
+<!-- Descripcion de que se quiere conseguir -->
+<p>Otorgar permisos de lectura y escritura a un archivo.</p>
+
+<!-- Div para dar formato de consola-->
+<div class="comando">
+    
+    <!-- Comando a ejecutar (no te olvides de poner el hr para hacer la línea separadora) -->
+    <p>chmod +rw myfile.txt</p> <hr>
+
+    <!-- Resultado -->
+    <p>-rw-r--r-- 1 root root 0 Apr 5 16:31 myfile.txt</p>
+
+</div>
+
+
+</body>
+</html>
