@@ -2,7 +2,7 @@
 
 Este repositorio contendrá el manual de algunos comandos de Linux
 
-+ [FIND]()
++ [FIND](https://github.com/JavierArnedo/manualLinux)
 + [GREP]()
 + [SORT]()
-+ [CHMOD]()
++ [CHMOD](https://github.com/Angeeel04/manualLinux)
